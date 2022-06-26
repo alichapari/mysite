@@ -7,5 +7,5 @@ urlpatterns = [
     
     path('',blog_views,name = 'index'),
    
-    path('/single', blog_single , name = 'single')
+    path('single/', blog_single , name = 'single')
 ]
